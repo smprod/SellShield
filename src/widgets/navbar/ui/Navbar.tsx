@@ -18,7 +18,7 @@ const montserrat = Montserrat({subsets: ["latin"]})
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <NavbarNextUI className="bg-primary data-[menu-open=true]:bg-primary-dark" disableAnimation onMenuOpenChange={setIsMenuOpen}>
+        <NavbarNextUI className="bg-primary data-[menu-open=true]:bg-primary-dark" maxWidth="2xl" disableAnimation onMenuOpenChange={setIsMenuOpen}>
             <NavbarContent className="md:hidden pr-3" justify="center">
                 <NavbarBrand>
                     <Logo height="50px" width="50px" />
