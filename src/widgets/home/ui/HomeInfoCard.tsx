@@ -3,7 +3,7 @@ import {SignUpButton} from "@features/account";
 
 export const HomeInfoCard = () => {
     return (
-        <Card className="max-w-[40rem] bg-transparent shadow-none my-10 mx-[10.5  vw]">
+        <Card className="bg-transparent shadow-none">
             <CardHeader className="flex gap-3">
                 <p className="text-[49px] text-white">
                     Ваше спокойствие — наше обещание.
